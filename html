@@ -1,0 +1,23 @@
+
+var song;
+var limg = 700;
+var himg = 430;
+var ximg = 20;
+var yimg = 10;
+var img;
+
+function preload() {
+  img = loadImage("download.jpeg")
+  song = loadSound("Abertura portugues.mp3");
+}
+function setup() {
+  song.play()
+createCanvas(430, 430);
+
+}
+
+
+function draw() {
+  background(img)
+  
+}
